@@ -28,6 +28,6 @@ public class _1710 {
 
     public static void main(String[] args) {
         final var solution = new _1710();
-        System.out.println(solution.maximumUnits(new int[][] {{5,10},{2,5},{4,7},{3,9}}, 10));
+        System.out.println(solution.maximumUnits(new int[][]{{5, 10}, {2, 5}, {4, 7}, {3, 9}}, 10));
     }
 }
