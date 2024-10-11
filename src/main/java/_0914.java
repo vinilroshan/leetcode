@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/description
-public class _0941 {
+public class _0914 {
 
     private int gcd(int a, int b) {
         if (b == 0) {
@@ -33,7 +33,7 @@ public class _0941 {
     }
 
     public static void main(String[] args) {
-        final var solution = new _0941();
+        final var solution = new _0914();
         System.out.println(solution.hasGroupsSizeX(new int[]{1, 2, 3, 4, 4, 3, 2, 1}));
         System.out.println(solution.hasGroupsSizeX(new int[]{1, 1, 2, 2, 2, 2, 2}));
         System.out.println(solution.hasGroupsSizeX(new int[]{1}));
