@@ -1,5 +1,7 @@
 package helpers;
 
+import java.util.StringJoiner;
+
 public class ListNode {
     public int val;
     public ListNode next;
@@ -18,9 +20,11 @@ public class ListNode {
 
     public void print() {
         var temp = this;
+        var sj = new StringJoiner(",");
         while (temp != null) {
-            System.out.print(temp.val + ",");
+            sj.add(String.valueOf(temp.val));
             temp = temp.next;
         }
+        System.out.println(sj.toString());
     }
 }
